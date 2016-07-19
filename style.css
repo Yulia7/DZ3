@@ -45,19 +45,18 @@ background: linear-gradient(to right,  rgba(92,92,92,1) 0%,rgba(89,89,89,1) 12%,
     text-decoration: none;
     padding: 0 40px;
     font-size: 15px;
-    border-left: 1px solid #363636;
-    border-right: 1px solid #363636;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
 
 }
 .menu a:hover {
 	display: block; 
 	border-left: 1px solid #838383;
 	border-right: 1px solid #838383;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#343434+0,464646+100 */
-background: rgb(52,52,52); /* Old browsers */
-background: -moz-linear-gradient(left,  rgba(52,52,52,1) 0%, rgba(70,70,70,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left,  rgba(52,52,52,1) 0%,rgba(70,70,70,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right,  rgba(52,52,52,1) 0%,rgba(70,70,70,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: rgb(52,52,52); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(52,52,52,1) 0%, rgba(70,70,70,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(52,52,52,1) 0%,rgba(70,70,70,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(52,52,52,1) 0%,rgba(70,70,70,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 .side-menu {
 	float: left;
